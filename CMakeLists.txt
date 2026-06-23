@@ -5,22 +5,12 @@ cmake_minimum_required(VERSION 3.10)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# 添加可执行文件
-#add_executable(hello hello.cpp)# 设置CMake最低版本要求
-#cmake_minimum_required(VERSION 3.10)
-
-# 设置项目名称和版本
-# project(Hello VERSION 1.0)
-
-# 指定C++编译器
+# 指定C++编译器, 已经包含在目录里面了, 开箱即用
 set(CMAKE_C_COMPILER "${CMAKE_CURRENT_SOURCE_DIR}/gcc-arm-rockchip/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc")
 set(CMAKE_CXX_COMPILER "${CMAKE_CURRENT_SOURCE_DIR}/gcc-arm-rockchip/bin/arm-rockchip830-linux-uclibcgnueabihf-g++")
 
-
 # 设置项目名称和版本
 project(Hello VERSION 1.0)
-
-
 
 # 设置C++标准
 set(CMAKE_CXX_STANDARD 11)
