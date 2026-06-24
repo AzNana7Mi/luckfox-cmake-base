@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1ec42321-cacc-4a0c-9dde-05e3e87daf96" name="Luckfox-Pico-ProMax">
+        <fileTransfer accessType="SFTP" host="172.32.0.93" port="22" sshConfigId="a73300f2-9079-4ecd-ac59-8d735f7e8631" sshConfig="root@172.32.0.93:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
