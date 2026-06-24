@@ -40,8 +40,7 @@ class MainProgram{
 	}
 	/*
 	 * 连接开发板, 输入luckfox-config, 配置外设开关
-	 * 之后打开任意一个UART, 系统会从/dev/ttyS1开始计数
-	 * 注意：任何一个UART端口, 都会从/dev/ttyS1开
+	 * 注意：任何一个UART端口, 都会从/dev/ttyS1开始
 	 */
 	void Open_UART1() {
 		this->serial_port.init(
